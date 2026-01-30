@@ -18,14 +18,14 @@
   </tr>
   <tr>
     <td><video src="https://github.com/user-attachments/assets/177aaa79-074d-4d43-9f49-d1c962d6e315" width="100%" controls></video></td>
-    <td><video src="PASTE_YOUR_V1_MOTION_URL_HERE" width="100%" controls></video></td>
+    <td><video src="https://github.com/user-attachments/assets/1e7d3b27-7051-4d07-bce3-7c2ab7927b23" width="100%" controls></video></td>
   </tr>
 </table>
 
 <p align="center">
   <b>V1 Inverse Dynamics Predictor</b><br>
   <em>Reconstructing control vectors (x, y, z) from latent shifts.</em><br>
-  <video src="PASTE_YOUR_V1_PREDICTOR_URL_HERE" width="60%" controls></video>
+  <video src="https://github.com/user-attachments/assets/68b54e11-d3db-485c-a82e-4f35e666d61d" width="60%" controls></video>
 </p>
 
 ### Phase 2: V2 High-Fidelity Iteration
@@ -37,15 +37,15 @@
     <td align="center" width="50%"><b>Movement / Motion</b></td>
   </tr>
   <tr>
-    <td><video src="PASTE_YOUR_V2_PLACE_URL_HERE" width="100%" controls></video></td>
-    <td><video src="PASTE_YOUR_V2_MOTION_URL_HERE" width="100%" controls></video></td>
+    <td><video src="https://github.com/user-attachments/assets/26ef3ec2-d4a3-488a-bb38-0a86bd84cefb" width="100%" controls></video></td>
+    <td><video src="https://github.com/user-attachments/assets/00696a0a-4e87-45e2-9f0d-a2be0391658e" width="100%" controls></video></td>
   </tr>
 </table>
 
 <p align="center">
   <b>V2 Inverse Dynamics Predictor</b><br>
   <em>Refined inference handling complex rotational data.</em><br>
-  <video src="PASTE_YOUR_V2_PREDICTOR_URL_HERE" width="60%" controls></video>
+  <video src="https://github.com/user-attachments/assets/a4527a2e-05b8-4cda-9f71-a108ead6fb3d" width="60%" controls></video>
 </p>
 
 ---
@@ -57,7 +57,7 @@ To ensure 100% data ownership and avoid web-scraping, we authored a custom "Data
 * **Objective:** To train the Predictor on this ground-truth data, enabling future "zero-shot" auto-labeling of external video sources.
 
 <p align="center">
-  <video src="PASTE_YOUR_SYNTHETIC_WORLD_LONG_URL_HERE" width="100%" controls></video>
+  <video src="https://github.com/user-attachments/assets/5c1fbe1f-d0ee-4e49-b09d-94f6f0d776a3" width="100%" controls></video>
   <br>
   <em>Timelapse: Automated data harvesting in the synthetic UE5 environment.</em>
 </p>
