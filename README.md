@@ -6,10 +6,13 @@
 ---
 
 ## 01. Neural World Models & Inverse Dynamics (Proprietary Research)
-*Note: The underlying architecture is proprietary. Below are outputs demonstrating the system's ability to synthesize worlds and infer control states.*
+*Note: The underlying architecture is proprietary. Below are outputs demonstrating the system's ability to synthesize worlds and infer control states. This was entirely a team effort, of some of the most talented people I ever had the pleasure to work with. Everything was trained on a single local 4090 for v1 and a single local 5090 for v2 and is capable of inference locally at 20fps on a single 4090 (imagine if we had the resources to go bigger.)*
 
 ### Phase 1: V1 Research Prototype
-**Goal:** Establishing latent manifold stability and mapping fundamental movement deltas to synthesized frame transitions.
+* **Goal:** Impressed by sudden emergence of world models, my team coalesced around the idea of creating our own proprietary version of the technology.
+* **Constraint:** Optimized to train entirely on a single consumer GPU (RTX 4090).
+* **Pipeline Optimization:** To solve training bottlenecks, we decoupled the data pipeline. We pre-encoded inputs and frames into tensor chunks, effectively splitting the process to maximize throughput.
+* **Validation:** Initially benchmarked against Minecraft data to verify our novel architecture (distinct from SOTA), then validated on a barebones UE5 environment.
 
 <table width="100%">
   <tr>
@@ -25,13 +28,16 @@
 <div align="center">
   <br>
   <b>V1 Inverse Dynamics Predictor</b><br>
-  <em>Reconstructing control vectors (x, y, z) from latent shifts.</em><br>
+  <em>Concept developed post-V2, demonstrated here running on the V1 architecture. This validated our ability to infer inputs from raw video, removing the strict requirement for ground-truth pairs <b>during training</b>.</em><br>
   <video src="https://github.com/user-attachments/assets/68b54e11-d3db-485c-a82e-4f35e666d61d" width="40%" controls></video>
   <br><br>
 </div>
 
-### Phase 2: V2 High-Fidelity Iteration
-**Goal:** Increased environment complexity and temporal persistence. This version handles rotational data and non-linear acceleration within the synthesized world.
+### Phase 2: V2 Increased Visual Fidelity
+* **Goal:** To create our own ethical data source. This version used an expanded architecture in order to handle increased environment complexity.
+* **Constraint:** Optimized to train entirely on a single RTX 5090 but still infer on a 4090.
+* **Data Harvesting:** To solve data bottlenecks, we created bots with multiple views that could traverse our gameworld and capture 4x more data per bot.
+* **Validation:** We learned that while our architecture was capable of learning effectively, it became very clear that there was an exponential need for more data.
 
 <table width="100%">
   <tr>
@@ -47,7 +53,7 @@
 <div align="center">
   <br>
   <b>V2 Inverse Dynamics Predictor</b><br>
-  <em>Refined inference handling complex rotational data.</em><br>
+  <em>Refined inference handling our complex environment video data.</em><br>
   <video src="https://github.com/user-attachments/assets/a4527a2e-05b8-4cda-9f71-a108ead6fb3d" width="40%" controls></video>
   <br><br>
 </div>
@@ -55,7 +61,7 @@
 ---
 
 ## 🧬 The "Data Factory": Ethical Data Lineage
-To ensure 100% data ownership and avoid web-scraping, we authored a custom "Data Laboratory" in Unreal Engine 5.
+To ensure 100% data ownership and avoid excessive web-scraping, we authored a custom "Data Laboratory" in Unreal Engine 5.
 
 * **Process:** Automated agents navigate a custom-built 3D world to capture perfectly synchronized `Frame + Input` pairs.
 * **Objective:** To train the Predictor on this ground-truth data, enabling future "zero-shot" auto-labeling of external video sources.
