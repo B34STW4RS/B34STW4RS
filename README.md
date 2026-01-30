@@ -148,7 +148,7 @@ OutRun-inspired racing with vintage-style sprite scaling.
 * **Languages:** Python, JavaScript/TypeScript, C++, HLSL
 * **Machine Learning:** PyTorch, Custom Architecture Design, Synthetic Data Pipelines
 * **Engines:** Unreal Engine 5, Custom Neural Renderers
-* **Community:** Moderator at **Banodoco** (ML Community)
+* **Community:**Senior Moderator at **Banodoco** (ML Community)
 
 <br>
 <div align="center">
