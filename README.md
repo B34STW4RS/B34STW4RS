@@ -1,7 +1,7 @@
 # Konstantin Rusinevich (B34STW4RS)
 ### ML Engineer & Game Systems Architect
 
-> **20 years of experience** bridging the gap between traditional game engines (C++/Unreal) and neural world models (PyTorch). Currently leading research on real-time world models and ethical data synthesis.
+> **20 years of experience** now bridging the gap between traditional game engines (C++/Unreal) and neural world models (PyTorch). Currently leading research on real-time world models and ethical data synthesis.
 
 ---
 
@@ -67,7 +67,7 @@ To ensure 100% data ownership and avoid excessive web-scraping, we authored a cu
 * **Objective:** To train the Predictor on this ground-truth data, enabling future "zero-shot" auto-labeling of external video sources.
 
 <div align="center">
-  <video src="https://github.com/user-attachments/assets/5c1fbe1f-d0ee-4e49-b09d-94f6f0d776a3" width="600" controls></video>
+  <video src="https://github.com/user-attachments/assets/5c18f323-f12e-41f9-8619-747b354ed64a" width="600" controls></video>
   <br>
   <em>Timelapse: Automated data harvesting in the synthetic UE5 environment.</em>
 </div>
