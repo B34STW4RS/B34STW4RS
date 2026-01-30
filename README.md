@@ -1,7 +1,7 @@
 # Konstantin Rusinevich (B34STW4RS)
 ### ML Engineer & Game Systems Architect
 
-> **20 years of experience** now bridging the gap between traditional game engines (C++/Unreal) and neural world models (PyTorch). Currently leading research on real-time world models and ethical data synthesis.
+> **20 years of experience** now bridging the gap between traditional game engines (C++/Unreal) and neural world models (PyTorch). Currently leading research on real-time world models and ethical data synthesis. Obsessed with engineering the perfect prompt to relive my classic childhood gaming days. Active professional work is primarily in private organizational repositories (70+ internal repos). This profile will contain selected public artifacts and demos.
 
 ---
 
