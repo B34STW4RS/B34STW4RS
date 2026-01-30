@@ -1,7 +1,7 @@
 # Konstantin Rusinevich (B34STW4RS)
 ### ML Engineer & Game Systems Architect
 
-> **20 years of experience** bridging the gap between traditional game engines (C++/Unreal) and neural world models (PyTorch). Currently leading research on real-time neural rendering and ethical data synthesis.
+> **20 years of experience** bridging the gap between traditional game engines (C++/Unreal) and neural world models (PyTorch). Currently leading research on real-time world models and ethical data synthesis.
 
 ---
 
@@ -29,7 +29,7 @@
   <br>
   <b>V1 Inverse Dynamics Predictor</b><br>
   <em>Concept developed post-V2, demonstrated here running on the V1 architecture. This validated our ability to infer inputs from raw video, removing the strict requirement for ground-truth pairs <b>during training</b>.</em><br>
-  <video src="https://github.com/user-attachments/assets/68b54e11-d3db-485c-a82e-4f35e666d61d" width="25%" controls></video>
+  <video src="https://github.com/user-attachments/assets/68b54e11-d3db-485c-a82e-4f35e666d61d" width="400" controls></video>
   <br><br>
 </div>
 
@@ -54,7 +54,7 @@
   <br>
   <b>V2 Inverse Dynamics Predictor</b><br>
   <em>Refined inference handling our complex environment video data.</em><br>
-  <video src="https://github.com/user-attachments/assets/a4527a2e-05b8-4cda-9f71-a108ead6fb3d" width="25%" controls></video>
+  <video src="https://github.com/user-attachments/assets/a4527a2e-05b8-4cda-9f71-a108ead6fb3d" width="400" controls></video>
   <br><br>
 </div>
 
@@ -67,7 +67,7 @@ To ensure 100% data ownership and avoid excessive web-scraping, we authored a cu
 * **Objective:** To train the Predictor on this ground-truth data, enabling future "zero-shot" auto-labeling of external video sources.
 
 <div align="center">
-  <video src="https://github.com/user-attachments/assets/5c1fbe1f-d0ee-4e49-b09d-94f6f0d776a3" width="75%" controls></video>
+  <video src="https://github.com/user-attachments/assets/5c1fbe1f-d0ee-4e49-b09d-94f6f0d776a3" width="600" controls></video>
   <br>
   <em>Timelapse: Automated data harvesting in the synthetic UE5 environment.</em>
 </div>
@@ -89,7 +89,7 @@ Moody first-person raycaster with shooting mechanics.
 **[▶️ Play Live Demo](https://b34stw4rs.github.io/llm-game-prototypes/shooter/)**
 
 <div align="center">
-  <video src="https://github.com/user-attachments/assets/00a637c2-cb29-47f5-980d-20c2b239a930" width="45%" controls></video>
+  <video src="https://github.com/user-attachments/assets/00a637c2-cb29-47f5-980d-20c2b239a930" width="500" controls></video>
 </div>
 
 ### 🎮 Dungeon Crawler Style RPG  
@@ -98,7 +98,7 @@ First-person raycaster with multiple characters and RPG systems.
 **[▶️ Play Live Demo](https://b34stw4rs.github.io/llm-game-prototypes/rpg/)**
 
 <div align="center">
-  <video src="https://github.com/user-attachments/assets/eacc0131-018a-42cb-9348-5f7f82cf6172" width="45%" controls></video>
+  <video src="https://github.com/user-attachments/assets/eacc0131-018a-42cb-9348-5f7f82cf6172" width="500" controls></video>
 </div>
 
 ### 🏎️ Sprite Scaler Racer
@@ -107,7 +107,7 @@ OutRun-inspired racing with vintage-style sprite scaling.
 **[▶️ Play Live Demo](https://b34stw4rs.github.io/llm-game-prototypes/racer/)**
 
 <div align="center">
-  <video src="https://github.com/user-attachments/assets/d181ddda-28db-4373-b235-c087e4fe4ef9" width="45%" controls></video>
+  <video src="https://github.com/user-attachments/assets/d181ddda-28db-4373-b235-c087e4fe4ef9" width="500" controls></video>
 </div>
 
 ---
@@ -130,7 +130,7 @@ OutRun-inspired racing with vintage-style sprite scaling.
 * **Languages:** Python, JavaScript/TypeScript, C++, HLSL
 * **Machine Learning:** PyTorch, Custom Architecture Design, Synthetic Data Pipelines
 * **Engines:** Unreal Engine 5, Custom Neural Renderers
-* **Community:** Senior Moderator at **Banodoco** (ML Community)
+* **Community:** Moderator at **Banodoco** (ML Community)
 
 <br>
 <div align="center">
