@@ -17,16 +17,18 @@
     <td align="center" width="50%"><b>Movement / Motion</b></td>
   </tr>
   <tr>
-    <td><video src="https://github.com/user-attachments/assets/177aaa79-074d-4d43-9f49-d1c962d6e315" width="100%" controls></video></td>
-    <td><video src="https://github.com/user-attachments/assets/1e7d3b27-7051-4d07-bce3-7c2ab7927b23" width="100%" controls></video></td>
+    <td valign="middle"><video src="https://github.com/user-attachments/assets/177aaa79-074d-4d43-9f49-d1c962d6e315" width="100%" controls></video></td>
+    <td valign="middle"><video src="https://github.com/user-attachments/assets/1e7d3b27-7051-4d07-bce3-7c2ab7927b23" width="100%" controls></video></td>
   </tr>
 </table>
 
-<p align="center">
+<div align="center">
+  <br>
   <b>V1 Inverse Dynamics Predictor</b><br>
   <em>Reconstructing control vectors (x, y, z) from latent shifts.</em><br>
-  <video src="https://github.com/user-attachments/assets/68b54e11-d3db-485c-a82e-4f35e666d61d" width="60%" controls></video>
-</p>
+  <video src="https://github.com/user-attachments/assets/68b54e11-d3db-485c-a82e-4f35e666d61d" width="40%" controls></video>
+  <br><br>
+</div>
 
 ### Phase 2: V2 High-Fidelity Iteration
 **Goal:** Increased environment complexity and temporal persistence. This version handles rotational data and non-linear acceleration within the synthesized world.
@@ -37,16 +39,18 @@
     <td align="center" width="50%"><b>Movement / Motion</b></td>
   </tr>
   <tr>
-    <td><video src="https://github.com/user-attachments/assets/26ef3ec2-d4a3-488a-bb38-0a86bd84cefb" width="100%" controls></video></td>
-    <td><video src="https://github.com/user-attachments/assets/00696a0a-4e87-45e2-9f0d-a2be0391658e" width="100%" controls></video></td>
+    <td valign="middle"><video src="https://github.com/user-attachments/assets/26ef3ec2-d4a3-488a-bb38-0a86bd84cefb" width="100%" controls></video></td>
+    <td valign="middle"><video src="https://github.com/user-attachments/assets/00696a0a-4e87-45e2-9f0d-a2be0391658e" width="100%" controls></video></td>
   </tr>
 </table>
 
-<p align="center">
+<div align="center">
+  <br>
   <b>V2 Inverse Dynamics Predictor</b><br>
   <em>Refined inference handling complex rotational data.</em><br>
-  <video src="https://github.com/user-attachments/assets/a4527a2e-05b8-4cda-9f71-a108ead6fb3d" width="60%" controls></video>
-</p>
+  <video src="https://github.com/user-attachments/assets/a4527a2e-05b8-4cda-9f71-a108ead6fb3d" width="40%" controls></video>
+  <br><br>
+</div>
 
 ---
 
@@ -56,11 +60,11 @@ To ensure 100% data ownership and avoid web-scraping, we authored a custom "Data
 * **Process:** Automated agents navigate a custom-built 3D world to capture perfectly synchronized `Frame + Input` pairs.
 * **Objective:** To train the Predictor on this ground-truth data, enabling future "zero-shot" auto-labeling of external video sources.
 
-<p align="center">
+<div align="center">
   <video src="https://github.com/user-attachments/assets/5c1fbe1f-d0ee-4e49-b09d-94f6f0d776a3" width="100%" controls></video>
   <br>
   <em>Timelapse: Automated data harvesting in the synthetic UE5 environment.</em>
-</p>
+</div>
 
 ---
 
@@ -71,9 +75,9 @@ To ensure 100% data ownership and avoid web-scraping, we authored a custom "Data
 
 [ **Playable Demo** ](PASTE_YOUR_GAME_LINK_HERE)
 
-<p align="center">
+<div align="center">
   <img src="PASTE_YOUR_RAYCASTER_SCREENSHOT_URL_HERE" width="100%" alt="Raycaster Demo">
-</p>
+</div>
 
 ---
 
@@ -81,9 +85,9 @@ To ensure 100% data ownership and avoid web-scraping, we authored a custom "Data
 **Project:** [ComfyUI-itsB34ST-Nodes](https://github.com/B34STW4RS/ComfyUI-itsB34ST-Nodes)
 **Focus:** Custom node systems for advanced generative workflows, including stylization and animation control.
 
-<p align="center">
+<div align="center">
   <img src="PASTE_YOUR_COMFYUI_NODE_SCREENSHOT_URL_HERE" width="100%" alt="ComfyUI Workflow">
-</p>
+</div>
 
 ---
 
@@ -93,5 +97,7 @@ To ensure 100% data ownership and avoid web-scraping, we authored a custom "Data
 * **Engines:** Unreal Engine 5, Custom Neural Renderers
 * **Community:** Senior Moderator at **Banodoco** (ML Community)
 
-
-© 2026 Konstantin Rusinevich. All rights reserved. Media assets are strictly for demonstration purposes and remain the property of their respective owners.
+<br>
+<div align="center">
+  <small>© 2026 Konstantin Rusinevich. All rights reserved. Media assets are strictly for demonstration purposes and remain the property of their respective owners.</small>
+</div>
