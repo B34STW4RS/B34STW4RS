@@ -29,15 +29,15 @@
   <br>
   <b>V1 Inverse Dynamics Predictor</b><br>
   <em>Concept developed post-V2, demonstrated here running on the V1 architecture. This validated our ability to infer inputs from raw video, removing the strict requirement for ground-truth pairs <b>during training</b>.</em><br>
-  <video src="https://github.com/user-attachments/assets/68b54e11-d3db-485c-a82e-4f35e666d61d" width="40%" controls></video>
+  <video src="https://github.com/user-attachments/assets/68b54e11-d3db-485c-a82e-4f35e666d61d" width="25%" controls></video>
   <br><br>
 </div>
 
 ### Phase 2: V2 Increased Visual Fidelity
-* **Goal:** To create our own ethical data source. This version used an expanded architecture in order to handle increased environment complexity.
-* **Constraint:** Optimized to train entirely on a single RTX 5090 but still infer on a 4090.
-* **Data Harvesting:** To solve data bottlenecks, we created bots with multiple views that could traverse our gameworld and capture 4x more data per bot.
-* **Validation:** We learned that while our architecture was capable of learning effectively, it became very clear that there was an exponential need for more data.
+* **Goal:** To establish a fully ethical, high-fidelity data source. This version utilized an expanded architecture to handle increased environment complexity.
+* **Constraint:** Optimized to train on a single RTX 5090 while maintaining inference capability on a 4090.
+* **Data Harvesting:** To solve data volume bottlenecks, we deployed bots with multiple viewports, traversing the game world to capture 4x more data per instance.
+* **Validation:** The architecture proved highly capable, though the results highlighted an exponential need for data scaling to eliminate artifacts.
 
 <table width="100%">
   <tr>
@@ -54,7 +54,7 @@
   <br>
   <b>V2 Inverse Dynamics Predictor</b><br>
   <em>Refined inference handling our complex environment video data.</em><br>
-  <video src="https://github.com/user-attachments/assets/a4527a2e-05b8-4cda-9f71-a108ead6fb3d" width="40%" controls></video>
+  <video src="https://github.com/user-attachments/assets/a4527a2e-05b8-4cda-9f71-a108ead6fb3d" width="25%" controls></video>
   <br><br>
 </div>
 
@@ -67,32 +67,61 @@ To ensure 100% data ownership and avoid excessive web-scraping, we authored a cu
 * **Objective:** To train the Predictor on this ground-truth data, enabling future "zero-shot" auto-labeling of external video sources.
 
 <div align="center">
-  <video src="https://github.com/user-attachments/assets/5c1fbe1f-d0ee-4e49-b09d-94f6f0d776a3" width="100%" controls></video>
+  <video src="https://github.com/user-attachments/assets/5c1fbe1f-d0ee-4e49-b09d-94f6f0d776a3" width="75%" controls></video>
   <br>
   <em>Timelapse: Automated data harvesting in the synthetic UE5 environment.</em>
 </div>
 
 ---
 
-## 02. Experimental Game Dev (LLM-Assisted)
-**Project:** Retro-Style Raycaster Engine
-**Focus:** Benchmarking development velocity by using LLMs to port C++ rendering logic to monolithic HTML5/JS.
-**Result:** A playable, pseudo-3D dungeon crawler built to test rapid prototyping workflows.
+## 02. Rapid Concept Prototyping with LLMs
 
-[ **Playable Demo** ](PASTE_YOUR_GAME_LINK_HERE)
+Testing whether modern LLMs can accelerate game development workflows. 
+Each prototype below was built from scratch in around 10 minutes using 
+various available LLMs to port game logic to standalone HTML/JS implementations.
+
+**Goal:** Validate that LLMs enable developers to test wildly different 
+game concepts without investing days per prototype.
+
+### 🔫 Wolf3D-Style Shooter
+Moody first-person raycaster with shooting mechanics.
+
+**[▶️ Play Live Demo](https://b34stw4rs.github.io/llm-game-prototypes/shooter/)**
 
 <div align="center">
-  <img src="PASTE_YOUR_RAYCASTER_SCREENSHOT_URL_HERE" width="100%" alt="Raycaster Demo">
+  <video src="https://github.com/user-attachments/assets/00a637c2-cb29-47f5-980d-20c2b239a930" width="45%" controls></video>
+</div>
+
+### 🎮 Dungeon Crawler Style RPG  
+First-person raycaster with multiple characters and RPG systems.
+
+**[▶️ Play Live Demo](https://b34stw4rs.github.io/llm-game-prototypes/rpg/)**
+
+<div align="center">
+  <video src="https://github.com/user-attachments/assets/eacc0131-018a-42cb-9348-5f7f82cf6172" width="45%" controls></video>
+</div>
+
+### 🏎️ Sprite Scaler Racer
+OutRun-inspired racing with vintage-style sprite scaling.
+
+**[▶️ Play Live Demo](https://b34stw4rs.github.io/llm-game-prototypes/racer/)**
+
+<div align="center">
+  <video src="https://github.com/user-attachments/assets/d181ddda-28db-4373-b235-c087e4fe4ef9" width="45%" controls></video>
 </div>
 
 ---
 
+**Development time:** ~10 minutes each | **Stack:** Pure HTML5/JS, no frameworks | **Workflow:** Iterative prompting Claude, Gemini, and ChatGPT
+
+---
+
 ## 03. Open Source Contribution
-**Project:** [ComfyUI-itsB34ST-Nodes](https://github.com/B34STW4RS/ComfyUI-itsB34ST-Nodes)
+**Project:** [ComfyUI-itsB34ST-Nodes](https://github.com/B34STW4RS/ComfyUI-itsB34ST-Nodes)  
 **Focus:** Custom node systems for advanced generative workflows, including stylization and animation control.
 
 <div align="center">
-  <img src="PASTE_YOUR_COMFYUI_NODE_SCREENSHOT_URL_HERE" width="100%" alt="ComfyUI Workflow">
+  <img src="https://github.com/user-attachments/assets/9cb8c48b-bfd2-4b59-8a09-c58519170975" width="100%" alt="ComfyUI Workflow">
 </div>
 
 ---
