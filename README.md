@@ -28,7 +28,7 @@
 <div align="center">
   <br>
   <b>V1 Inverse Dynamics Predictor</b><br>
-  <em>Concept developed post-V2, demonstrated here running on the V1 architecture. This validated our ability to infer inputs from raw video, removing the strict requirement for ground-truth pairs <b>during training</b>.</em><br>
+  <em>Concept developed post-V2, demonstrated here running on the V1 architecture. This validated our ability to infer inputs from raw video, resolving the strict requirement for ground-truth pairs <b>during training</b>.</em><br>
   <video src="https://github.com/user-attachments/assets/68b54e11-d3db-485c-a82e-4f35e666d61d" width="400" controls></video>
   <br><br>
 </div>
