@@ -117,12 +117,23 @@ OutRun-inspired racing with vintage-style sprite scaling.
 ---
 
 ## 03. Open Source Contribution
-**Project:** [ComfyUI-itsB34ST-Nodes](https://github.com/B34STW4RS/ComfyUI-itsB34ST-Nodes)  
-**Focus:** Custom node systems for advanced generative workflows, including stylization and animation control.
+
+### ComfyUI Custom Nodes
+* **Project:** [ComfyUI-itsB34ST-Nodes](https://github.com/B34STW4RS/ComfyUI-itsB34ST-Nodes)  
+* **Focus:** Custom node systems for advanced generative workflows, including stylization and animation control.
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/9cb8c48b-bfd2-4b59-8a09-c58519170975" width="100%" alt="ComfyUI Workflow">
 </div>
+
+### Neural Stylization Research
+* **Project:** [Modern-Neuro-Stylize](https://github.com/B34STW4RS/Modern-Neuro-Stylize)  
+* **Focus:** Modernized neural style transfer experiments with custom architecture modifications.
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/d836051e-cee4-4999-b1f7-f1dfc6d9820b" width="100%" alt="Neural Stylization Example">
+</div>
+
 
 ---
 
