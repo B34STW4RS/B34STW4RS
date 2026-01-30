@@ -1,16 +1,97 @@
-## Hi there 👋
+# Konstantin Rusinevich (B34STW4RS)
+### ML Engineer & Game Systems Architect
 
-<!--
-**B34STW4RS/B34STW4RS** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+> **20 years of experience** bridging the gap between traditional game engines (C++/Unreal) and neural world models (PyTorch). Currently leading research on real-time neural rendering and ethical data synthesis.
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 01. Neural World Models & Inverse Dynamics (Proprietary Research)
+*Note: The underlying architecture is proprietary. Below are outputs demonstrating the system's ability to synthesize worlds and infer control states.*
+
+### Phase 1: V1 Research Prototype
+**Goal:** Establishing latent manifold stability and mapping fundamental movement deltas to synthesized frame transitions.
+
+<table width="100%">
+  <tr>
+    <td align="center" width="50%"><b>Static / In-Place</b></td>
+    <td align="center" width="50%"><b>Movement / Motion</b></td>
+  </tr>
+  <tr>
+    <td><video src="PASTE_YOUR_V1_PLACE_URL_HERE" width="100%" controls></video></td>
+    <td><video src="PASTE_YOUR_V1_MOTION_URL_HERE" width="100%" controls></video></td>
+  </tr>
+</table>
+
+<p align="center">
+  <b>V1 Inverse Dynamics Predictor</b><br>
+  <em>Reconstructing control vectors (x, y, z) from latent shifts.</em><br>
+  <video src="PASTE_YOUR_V1_PREDICTOR_URL_HERE" width="60%" controls></video>
+</p>
+
+### Phase 2: V2 High-Fidelity Iteration
+**Goal:** Increased environment complexity and temporal persistence. This version handles rotational data and non-linear acceleration within the synthesized world.
+
+<table width="100%">
+  <tr>
+    <td align="center" width="50%"><b>Static / In-Place</b></td>
+    <td align="center" width="50%"><b>Movement / Motion</b></td>
+  </tr>
+  <tr>
+    <td><video src="PASTE_YOUR_V2_PLACE_URL_HERE" width="100%" controls></video></td>
+    <td><video src="PASTE_YOUR_V2_MOTION_URL_HERE" width="100%" controls></video></td>
+  </tr>
+</table>
+
+<p align="center">
+  <b>V2 Inverse Dynamics Predictor</b><br>
+  <em>Refined inference handling complex rotational data.</em><br>
+  <video src="PASTE_YOUR_V2_PREDICTOR_URL_HERE" width="60%" controls></video>
+</p>
+
+---
+
+## 🧬 The "Data Factory": Ethical Data Lineage
+To ensure 100% data ownership and avoid web-scraping, we authored a custom "Data Laboratory" in Unreal Engine 5.
+
+* **Process:** Automated agents navigate a custom-built 3D world to capture perfectly synchronized `Frame + Input` pairs.
+* **Objective:** To train the Predictor on this ground-truth data, enabling future "zero-shot" auto-labeling of external video sources.
+
+<p align="center">
+  <video src="PASTE_YOUR_SYNTHETIC_WORLD_LONG_URL_HERE" width="100%" controls></video>
+  <br>
+  <em>Timelapse: Automated data harvesting in the synthetic UE5 environment.</em>
+</p>
+
+---
+
+## 02. Experimental Game Dev (LLM-Assisted)
+**Project:** Retro-Style Raycaster Engine
+**Focus:** Benchmarking development velocity by using LLMs to port C++ rendering logic to monolithic HTML5/JS.
+**Result:** A playable, pseudo-3D dungeon crawler built to test rapid prototyping workflows.
+
+[ **Playable Demo** ](PASTE_YOUR_GAME_LINK_HERE)
+
+<p align="center">
+  <img src="PASTE_YOUR_RAYCASTER_SCREENSHOT_URL_HERE" width="100%" alt="Raycaster Demo">
+</p>
+
+---
+
+## 03. Open Source Contribution
+**Project:** [ComfyUI-itsB34ST-Nodes](https://github.com/B34STW4RS/ComfyUI-itsB34ST-Nodes)
+**Focus:** Custom node systems for advanced generative workflows, including stylization and animation control.
+
+<p align="center">
+  <img src="PASTE_YOUR_COMFYUI_NODE_SCREENSHOT_URL_HERE" width="100%" alt="ComfyUI Workflow">
+</p>
+
+---
+
+### Technical Toolbox
+* **Languages:** Python, JavaScript/TypeScript, C++, HLSL
+* **Machine Learning:** PyTorch, Custom Architecture Design, Synthetic Data Pipelines
+* **Engines:** Unreal Engine 5, Custom Neural Renderers
+* **Community:** Senior Moderator at **Banodoco** (ML Community)
+
+
+© 2026 Konstantin Rusinevich. All rights reserved. Media assets are strictly for demonstration purposes and remain the property of their respective owners.
